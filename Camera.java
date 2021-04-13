@@ -23,9 +23,9 @@ public class Camera {
         numberGoods += 1;
     }
 
-    public Camera(double volume, double mass, String material, String color,
+    public Camera(double photo_quality, double memory, String material, String color,
                 double price, String originCountry, String weight, double zoom) {
-        this(volume, mass, material, color);
+        this(photo_quality, memory, material, color);
         this.price = price;
         this.originCountry = originCountry;
         this.weight = weight;
@@ -66,11 +66,11 @@ public class Camera {
         this.zoom = zoom;
     }
 
-    public double getVolume() {
+    public double getPhoto_quality() {
         return this.photo_quality;
     }
 
-    public double getMass() {
+    public double getMemory() {
         return this.memory;
     }
 
