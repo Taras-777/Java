@@ -13,8 +13,8 @@ Instead of getters/setters you should use @Data annotation from lombok
 Use maven and Jococo(in build section), FindBugs, PMD, CheckStyle plugins(reporting section)
 Run mvn site and fix errors reported by checkstyle, pmd and findbugs
 #To run:
-######git clone
-######Intellij IDEA: push 'RUN'
+git clone
+Intellij IDEA: push 'RUN'
 #Or:
 ######Run mvn compile
 ######Run mvn package
