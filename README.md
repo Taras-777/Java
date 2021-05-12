@@ -1,4 +1,4 @@
-#Java Lab 9
+Java Lab 9
 
 Write code for Lab 2 Use java code convention  
 CLasses must be distributed in packages  
@@ -14,12 +14,7 @@ Instead of getters/setters you should use @Data annotation from lombok
 Use maven and Jococo(in build section), FindBugs, PMD, CheckStyle plugins(reporting section)  
 Run mvn site and fix errors reported by checkstyle, pmd and findbugs  
 
-#To run:
+To run:
 
 git clone  
 Intellij IDEA: push 'RUN'
-
-#Or:
-Run mvn compile  
-Run mvn package  
-Run java -cp target/LAB_2-1.0-SNAPSHOT.jar ua.lviv.iot.lightShop.App
