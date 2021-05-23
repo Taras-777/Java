@@ -5,7 +5,7 @@ use plugins findbugs, checkstyle and pmd
 Code must be added as a separate pull request  
 The code must contain class Controller, Service and Repository interface  
 Database access should be configured through the properties file  
-To run server:  
+<h1>To run server:</h1>  
 git clone  
 mvn install  
 run target.performances-1.0-SNAPSHOT.jar  
