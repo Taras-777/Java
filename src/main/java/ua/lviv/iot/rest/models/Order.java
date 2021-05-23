@@ -17,13 +17,19 @@ public class Order {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    private Integer totalPrice;
+    private Integer price;
+
+    private String brand;
+
+    private String category;
 
     @NonNull
-    private String submitter;
+    private String name;
 
-    public Order(Integer totalPrice, @NonNull String submitter) {
-        this.totalPrice = totalPrice;
-        this.submitter = submitter;
+    public Order(Integer price, @NonNull String name, String brand, String category) {
+        this.price = price;
+        this.name = name;
+        this.brand = brand;
+        this.category = category;
     }
 }
